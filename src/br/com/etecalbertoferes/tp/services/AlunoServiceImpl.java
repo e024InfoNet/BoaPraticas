@@ -30,4 +30,8 @@ public class AlunoServiceImpl implements AlunoService{
         List<Aluno> alunos = dao.buscarTodos();
         System.out.println(alunos);
     }
+
+    public void exibirAluno(Aluno aluno) {
+        System.out.println("Aluno: "+aluno);
+    }
 }

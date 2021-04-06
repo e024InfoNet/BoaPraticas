@@ -8,4 +8,9 @@ public class Aluno {
         this.nome = nome;
         this.ra = ra;
     }
+
+    @Override
+    public String toString() {        
+        return "Aluno{ra: "+ra+", nome="+nome+"}";
+    }
 }
